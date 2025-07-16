@@ -5,7 +5,7 @@ import java.io.File;
 public class CategorizeFiles {
 
     // Maps extensions to folder names (you can customize this)
-    private static final Map<String, String> typeMap = new HashMap<>();
+    static final Map<String, String> typeMap = new HashMap<>();
     static {
         typeMap.put(".jpg", "Images");
         typeMap.put(".jpeg", "Images");
