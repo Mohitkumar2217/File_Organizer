@@ -8,14 +8,14 @@ public class FileOrganizer {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter file path: ");
         String str = input.next();
-        //import detectFile class
-        DetectFiles newFiles = new DetectFiles();
-
-        //import categorizeFile class
-        CategorizeFiles nextFiles = new CategorizeFiles();
-
-        //import moveFile class
-        MoveFiles moveFiles = new MoveFiles();
+//        //import detectFile class
+//        DetectFiles newFiles = new DetectFiles();
+//
+//        //import categorizeFile class
+//        CategorizeFiles nextFiles = new CategorizeFiles();
+//
+//        //import moveFile class
+//        MoveFiles moveFiles = new MoveFiles();
 
         // implement file organizer
         DetectFiles.detectFiles(str);
